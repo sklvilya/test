@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "babel",
     "lint": "eslint",
     "test": "jest"
   },
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "core-js": "^3.28.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "npm": "^9.5.0"
   }
 }
